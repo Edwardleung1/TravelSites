@@ -2,15 +2,9 @@
 <html>
   <head>
     <!--Import Google Icon Font-->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <!--Import materialize.css-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
     <!--Import fontawesome icon-->
     <link
       rel="stylesheet"
@@ -23,7 +17,7 @@
     <title>TravelSite</title>
   </head>
 
-  <body>
+  <body id="home" class="scrollspy">
     <!--NavBar (Stay at the top)-->
     <div class="navbar-fixed">
       <nav class="cyan">
@@ -104,7 +98,7 @@
           <img src="img/resort3.jpg" />
           <!-- random image -->
           <div class="caption left-align">
-            <h2>Let's make some wonderful memories!</h2>
+            <h2>Create some wonderful memories!</h2>
             <h5 class="light grey-text text-lighten-3 hide-on-small-only">
               Let us show you the world!
             </h5>
@@ -122,6 +116,22 @@
           </div>
         </li>
       </ul>
+    </section>
+
+    <!--Section: Search-->
+    <section id="search" class="section section-search cyan darken-1 white-text center scrollspy">
+      <!--Restrict everything-->
+      <div class="container">
+        <!--Grid-->
+        <div class="row">
+          <div class="col s12">
+            <h3>Search Locations</h3>
+            <div class="input-field">
+              <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder=" Africa, Canada, Spain, etc..." />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--JavaScript at end of body for optimized loading-->
