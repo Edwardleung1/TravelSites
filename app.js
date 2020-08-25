@@ -30,3 +30,9 @@ M.Autocomplete.init(ac, {
     Florida: null,
   },
 });
+
+// Material Boxed
+// Multiple = querySelectorAll
+const mb = document.querySelectorAll(".materialboxed");
+// Init mb with empty options
+M.Materialbox.init(mb, {});
